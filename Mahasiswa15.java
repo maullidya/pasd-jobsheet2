@@ -32,4 +32,11 @@ public class Mahasiswa15 {
             return "Kinerja kurang";
         }
     }
+    public Mahasiswa15(){}
+    public Mahasiswa15(String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.ipk = ipk;
+        this.nim = nim;
+        kelas = kls;
+    }
 }
